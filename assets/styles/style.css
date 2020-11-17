@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(9, 230, 255);
+}
+h1 {
+  margin-top: 100px;
+  text-align: center;
+}
+.input input {
+  height: 30px;
+  width: 300px;
+  background: none;
+  border: none;
+  border: 2px solid rgb(63, 63, 63);
+  text-align: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: center;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: rgb(167, 255, 224);
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
+.input label {
+  margin-bottom: 10px;
+}
+.login {
+  background: none;
+  border: none;
+  border: 2px solid rgb(63, 63, 63);
+  padding: 5px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.visible {
+  display: block;
+}
+.invisible {
+  display: none;
+}
+.display{
+  display: flex;
+  justify-content: space-around;
+}
+.deposit{
+  background: rgb(42, 116, 255);
+  padding: 0px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px gray;
+}
+.withdraw{
+  background: rgb(255, 172, 117);
+  padding: 0px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px gray;
+}
+.balance{
+  background: rgb(255, 176, 6);
+  padding: 0px 60px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px gray;
+}
+.transaction{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.button{
+  border: none;
+  padding: 10px 16px;
+  background: rgb(151, 221, 46);
+  color: aliceblue;
+  margin-top: 20px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.transaction input{
+  background: none;
+  padding: 10px 60px;
+  border: 2px solid rgb(170, 170, 170);
+  outline: none;
+}
+#deposit{
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 10px gray;
+  text-align: center;
+  background: white;
+}
+#withdraw{
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px gray;
+  text-align: center;
+  background: white;
+}
+.main{
+  margin-top: 150px;
+}
