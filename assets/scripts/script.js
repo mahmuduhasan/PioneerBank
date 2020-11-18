@@ -28,7 +28,7 @@ const depositHandler = () => {
     document.querySelector(".balance-money").innerHTML
   );
   const amountDeposit = parseInt(depositField.value);
-  if (amountDeposit < 0) {
+  if (amountDeposit < 0 || isNaN(amountDeposit)) {
     alert("Please Enter Positive Value!");
   } else {
     newDepositValue = depositMoney + amountDeposit;
@@ -49,7 +49,7 @@ const withdrawHandler = () => {
     document.querySelector(".balance-money").innerHTML
   );
   const amountWithdraw = parseInt(withdrawField.value);
-  if (amountWithdraw < 0) {
+  if (amountWithdraw < 0 || isNaN(amountWithdraw)) {
     alert("Please Enter Positive Value!");
   } else if (balanceMoney < amountWithdraw) {
     alert("Insufficient Balance");
